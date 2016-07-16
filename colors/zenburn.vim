@@ -42,7 +42,7 @@
 "                         parameters
 "  - Clayton Parker (claytron) - Convinced by Kurt Maier to use Zenburn. Point
 "    out issues with LineNr, fix directory styles, and their usage in MacVim.
-"  - Paweł Piekarski - Spotted bad FoldColumn and TabLine. Made better 
+"  - Paweł Piekarski - Spotted bad FoldColumn and TabLine. Made better
 "                      FoldColumn colors, fixed TabLine colors.
 "  - Jim - Fix for missing Include group for terminal
 "  - Peter (Sakartu) - ColorColumn fixes
@@ -113,7 +113,7 @@
 "
 " * New (dark) Visual coloring has been introduced.
 "   The dark Visual is more aligned with the rest of the colour scheme,
-"   especially if you use line numbers. If you wish to use the 
+"   especially if you use line numbers. If you wish to use the
 "   old Visual coloring, use
 "
 "      let g:zenburn_old_Visual = 1
@@ -137,7 +137,7 @@
 " * To turn the parameter(s) back to defaults, use UNLET or set them to 0:
 "
 "      unlet g:zenburn_alternate_Include
-"   or 
+"   or
 "      let g:zenburn_alternate_Include = 0
 "
 "
@@ -209,12 +209,14 @@ let g:colors_name="zenburn"
 
 hi Boolean         guifg=#dca3a3                              ctermfg=181
 hi Character       guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
-hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
+"hi Comment         guifg=#7f9f7f gui=italic                   ctermfg=108
+hi Comment         guifg=#7f7f7f gui=italic                   ctermfg=108
 hi Conditional     guifg=#f0dfaf gui=bold                     ctermfg=223 cterm=bold
 hi Constant        guifg=#dca3a3 gui=bold                     ctermfg=181 cterm=bold
 hi Cursor          guifg=#000d18 guibg=#8faf9f gui=bold       ctermfg=233 ctermbg=109 cterm=bold
 hi Debug           guifg=#bca3a3 gui=bold                     ctermfg=181 cterm=bold
-hi Define          guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
+"hi Define          guifg=#ffcfaf gui=bold                     ctermfg=223 cterm=bold
+hi Define          guifg=#efef8f gui=bold                     ctermfg=223 cterm=bold
 hi Delimiter       guifg=#8f8f8f                              ctermfg=245
 hi DiffAdd         guifg=#709080 guibg=#313c36 gui=bold       ctermfg=66  ctermbg=237 cterm=bold
 hi DiffChange      guibg=#333333                              ctermbg=236
@@ -257,7 +259,8 @@ hi Tag             guifg=#e89393 gui=bold                     ctermfg=181 cterm=
 hi Title           guifg=#efefef gui=bold                     ctermfg=255 ctermbg=NONE cterm=bold
 hi Todo            guifg=#dfdfdf guibg=NONE    gui=bold       ctermfg=254 ctermbg=NONE cterm=bold
 hi Typedef         guifg=#dfe4cf gui=bold                     ctermfg=253 cterm=bold
-hi Type            guifg=#dfdfbf gui=bold                     ctermfg=187 cterm=bold
+"hi Type            guifg=#dfdfbf gui=bold                     ctermfg=187 cterm=bold
+hi Type            guifg=#8cd0d3 gui=bold                     ctermfg=187 cterm=bold
 hi Underlined      guifg=#dcdccc gui=underline                ctermfg=188 cterm=underline
 hi VertSplit       guifg=#2e3330 guibg=#688060                ctermfg=236 ctermbg=65
 hi VisualNOS       guifg=#333333 guibg=#f18c96 gui=bold,underline ctermfg=236 ctermbg=210 cterm=bold
